@@ -1,0 +1,80 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;	
+}
+.body{
+	margin: 0 auto;
+	padding: 30px;
+}
+#banner{
+	position: relative;
+}
+#banner-container{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+	border: 3px solid black;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+#banner-container-list{
+	width: 4200px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+}
+#banner-container-list img {
+	float: left;
+}
+#banner-container-btns{
+	width: 200px;
+	height: 10px;
+	z-index: 2;
+	bottom: 20px;
+	left: 270px;
+	position: absolute;
+}
+#banner-container-btns span{
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 50%;
+	float: left;
+	background-color: #333;
+}
+#banner-container-btns .on{
+	background-color: #d52c2c;
+}
+.arrow{
+	cursor: pointer;
+	position: absolute;
+	top: 155px;
+	background-color: RGBA(0,0,0,.3);
+	height: 55px;
+	width: 55px;
+	z-index: 2;
+	color: #ffffff;
+	font-size: 36px;
+	line-height: 50px;
+	text-align: center;
+	display: none;
+}
+#banner-container:hover .arrow{
+	display: block;
+}
+.arrow:hover{
+	background-color: RGBA(0,0,0,.8);
+}
+#banner-container-prev{
+	left: 20px;
+}
+#banner-container-next{
+	right: 20px;
+}
