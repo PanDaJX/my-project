@@ -15,7 +15,6 @@ $(document).ready(
         }
 
         //创建日历模型
-
         //年月设置
         var calendar = $("#calendar");
         var _time = $("<div></div>").html(_year + "/" + _month + "/" + _day +
@@ -40,21 +39,23 @@ $(document).ready(
             "<th>五</th>" +
             "<th>六</th>" +
             "</tr>");
+        var _dateGrid = "";
         for (i = 0; i < 6; i++) {
-            var _line = $("<tr></tr>").html("<td></td>" +
+            _dateGrid += "<tr>" +
                 "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
                 "<td></td>" +
-                "<td></td>");
-            dateTable.append(_line);
+                "<td></td>" +
+                "<td></td>" +
+                "</tr>";
         }
+        dateTable.append(_dateGrid);
         calendar.append(dateTable);
 
         //填入日历数字
         function showCal(yy, mm) {
-
             var _firstDay = new Date(yy, mm - 1, 1); //当前月第一天
             var _tds = $(".date-table td"); //日历总共格子数
             for (var i = 0; i < _tds.length; i++) {
@@ -75,7 +76,6 @@ $(document).ready(
         }
 
         showCal(_year, _month); //正常时间显示
-
 
         //日期格式转换成字符串
         function getDayStr(date) {
@@ -109,6 +109,5 @@ $(document).ready(
             $("#nextMonth").bind("click", function() { setMonth(1); });
         }
         bindEvent();
-
     }
 )
