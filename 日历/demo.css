@@ -1,0 +1,89 @@
+.calendar {
+    width: 310px;
+    height: 320px;
+    position: absolute;
+    border: solid 5px #534be8;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.current-date {
+    text-align: left;
+    font-size: 20px;
+    color: #3f55f9;
+}
+
+.time-bar {
+    float: left;
+    width: 300px;
+    position: relative;
+    margin: 10px 0;
+    left: 5px;
+}
+
+.prev-month {
+    top: 30px;
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    float: left;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #999;
+    border-bottom: 10px solid transparent;
+}
+
+.next-month {
+    top: 30px;
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    float: right;
+    right: 0px;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #999;
+    border-bottom: 10px solid transparent;
+}
+
+.time-line {
+    font-size: 20px;
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    left: 90px;
+}
+
+.date-table {
+    border: solid 1px black;
+    width: 300px;
+    margin-top: 5px;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+}
+
+.date-table th {
+    font-size: 20px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.date-table td {
+    text-align: center;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.current-day {
+    color: #ffffff;
+    background-color: #0f62f1;
+}
+
+.current-month {
+    color: #000;
+}
+
+.other-month {
+    color: #a2a2a2;
+}
