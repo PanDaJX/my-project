@@ -1,0 +1,235 @@
+﻿ /**clear**/
+
+ li {
+     list-style: none;
+ }
+
+ *,
+ ul,
+ li {
+     margin: 0;
+     padding: 0;
+ }
+
+ a {
+     text-decoration: none;
+     color: #000;
+ }
+
+ a:hover {
+     color: #2398b6;
+ }
+
+ img {
+     max-width: 100%;
+ }
+
+ input,
+ textarea,
+ div,
+ a,
+ select {
+     outline: none;
+ }
+ /**public**/
+
+ body {
+     font-size: 14px;
+     width: 100%;
+     height: 100%;
+     font: 14px/1.75 '微软雅黑', arial, Verdana, Helvetica, sans-serif;
+ }
+
+ .fl {
+     float: left;
+ }
+
+ .pr {
+     position: relative;
+ }
+
+ .pa {
+     position: absolute;
+ }
+
+ .clearfix:after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+ }
+
+ .clearfix {
+     *+height: 1%;
+ }
+
+ .wp {
+     width: 1120px;
+     margin: 0 auto;
+ }
+ /**nav**/
+
+ .nav {
+     height: 103px;
+     width: 100%;
+     border-bottom: 1px solid #f2f1f1;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1000;
+     background: #fff;
+ }
+
+ .nav-logo {
+     width: 200px;
+     height: 100px;
+     margin-right: 20px;
+     padding: 10px 0 0 10px;
+ }
+
+ .nav-contant {}
+
+ .nav-contant li {
+     margin-right: 1px;
+     height: 103px;
+     width: 104px;
+     text-align: center;
+     line-height: 103px;
+ }
+
+ .nav-contant li:hover,
+ .nav-on {
+     background-color: #2398b6;
+ }
+
+ .nav-contant li:hover a,
+ .nav-on a {
+     color: #fff;
+ }
+
+ .nav-contant li a {
+     font-size: 16px;
+ }
+ /**banner**/
+
+ .banner {
+     margin-top: 130px;
+     height: 300px;
+     background: url("../img/banner.jpg")
+ }
+ /**breadnav**/
+
+ .bn {
+     margin-top: 20px;
+ }
+
+ .bn p {
+     margin-left: 50px;
+     width: 1120px;
+ }
+ /**main**/
+
+ .main {
+     margin-top: 40px;
+ }
+
+ 
+ /**contant**/
+
+
+ .t {
+     margin-bottom: 20px;
+     font-size: 29px;
+     color: rgb(88, 88, 88);
+     font-weight: bold;
+     letter-spacing: 5px;
+ }
+ 
+
+ .show {
+     padding: 5px;
+     border-bottom: 1px solid #999;
+     margin-bottom: 20px;
+ }
+
+ .pic,
+ .pic img {
+     width: 309px;
+     height: 214px;
+ }
+
+ .word {
+     width: 509px;
+     padding: 20px;
+ }
+
+ .word span {
+     background: url("../img/more_icon.jpg") no-repeat left center;
+     margin-top: 20px;
+     padding-left: 20px;
+     display: block;
+ }
+
+ .word span a {
+     color: #f60;
+ }
+
+ .word p {
+     margin-top: 20px;
+ }
+ /**to top**/
+
+ .top {
+     height: 36px;
+     text-align: center;
+ }
+ /**footer**/
+
+ .footer {
+     background: #262626;
+     color: #999;
+     border-top: 1px #2398b6 solid;
+ }
+
+ .footer-1 {
+     padding: 40px 0;
+     font-size: 12px;
+ }
+
+ .f-1-left {
+     padding-left: 35px;
+     line-height: 22px;
+     width: 70%;
+ }
+
+ .f-1-right {}
+
+ .f-1-right .tittle {
+     font-size: 18px;
+     margin-bottom: 10px;
+ }
+
+ .f-1-right .tittle img {
+     margin-right: 10px;
+ }
+
+ .qr img {
+     padding: 5px 0 0 35px;
+     width: 108px;
+     height: 108px;
+ }
+
+ .footer-2 {
+     border-top: solid 1px #666;
+     text-align: center;
+     line-height: 60px;
+ }
+
+ .footer-2 a {
+     color: #999;
+ }
+
+ .footer-2 a:hover {
+     color: #2398b6;
+ }
